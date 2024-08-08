@@ -36,3 +36,5 @@ ros2 node info /robot_news_station
 ```
 ros2 run <package> <node_name> --ros-args -r __node:=my_station -r robot_news:=my_news
 ```
+
+int64 data
