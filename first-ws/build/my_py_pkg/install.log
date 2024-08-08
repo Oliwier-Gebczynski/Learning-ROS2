@@ -1,6 +1,10 @@
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/__init__.cpython-310.pyc
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/robot_news_station.cpython-310.pyc
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/smartphone.cpython-310.pyc
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/my_first_node.cpython-310.pyc
 /ws/install/my_py_pkg/share/ament_index/resource_index/packages/my_py_pkg
 /ws/install/my_py_pkg/share/my_py_pkg/package.xml
@@ -12,3 +16,5 @@
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/zip-safe
 /ws/install/my_py_pkg/lib/my_py_pkg/py_node
+/ws/install/my_py_pkg/lib/my_py_pkg/robot_news_station
+/ws/install/my_py_pkg/lib/my_py_pkg/smartphone

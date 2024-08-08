@@ -4,6 +4,10 @@
 ## Run
 ```
 docker run -it --rm \
+  --net=host \
+  --env="DISPLAY" \
+  --env="QT_X11_NO_MITSHM=1" \
+  --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --name ros2 \
   -v /home/opg/Github/Learning-ROS2/first-ws:/ws \
   osrf/ros:humble-desktop
@@ -53,3 +57,11 @@ ros2 run demo_nodes_cpp talker
     if __name__ == "__main__":
         main()
 ```
+
+# RQT Graph
+
+## Do it on local machine
+```
+xhost +local:docker
+```
+
