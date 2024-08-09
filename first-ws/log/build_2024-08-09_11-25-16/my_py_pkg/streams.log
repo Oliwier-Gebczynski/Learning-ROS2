@@ -1,0 +1,29 @@
+[0.375s] Invoking command in '/ws/src/my_py_pkg': PYTHONPATH=/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /ws/build/my_py_pkg/build install --record /ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.526s] running egg_info
+[0.526s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.527s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.527s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.527s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.527s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.528s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.529s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.529s] running build
+[0.529s] running build_py
+[0.529s] running install
+[0.529s] running install_lib
+[0.530s] byte-compiling /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[0.531s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (add_two_ints_client.py, line 11)
+[0.531s] running install_data
+[0.531s] running install_egg_info
+[0.532s] removing '/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.532s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.533s] running install_scripts
+[0.547s] Installing add_two_ints_client script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.547s] Installing add_two_ints_server script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.547s] Installing number_counter script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.547s] Installing number_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.547s] Installing py_node script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.547s] Installing robot_news_station script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.547s] Installing smartphone script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.548s] writing list of installed files to '/ws/build/my_py_pkg/install.log'
+[0.560s] Invoked command in '/ws/src/my_py_pkg' returned '0': PYTHONPATH=/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /ws/build/my_py_pkg/build install --record /ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

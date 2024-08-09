@@ -1,0 +1,2 @@
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py:29: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().error("Service call failed %r" (e,))
