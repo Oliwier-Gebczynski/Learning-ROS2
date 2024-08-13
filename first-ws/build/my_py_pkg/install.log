@@ -1,5 +1,6 @@
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py
@@ -8,6 +9,7 @@
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/number_publisher.cpython-310.pyc
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/add_two_ints_server.cpython-310.pyc
+/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/hw_status_publisher.cpython-310.pyc
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/my_first_node.cpython-310.pyc
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/add_two_ints_client.cpython-310.pyc
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/smartphone.cpython-310.pyc
@@ -25,6 +27,7 @@
 /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
 /ws/install/my_py_pkg/lib/my_py_pkg/add_two_ints_client
 /ws/install/my_py_pkg/lib/my_py_pkg/add_two_ints_server
+/ws/install/my_py_pkg/lib/my_py_pkg/hw_status_publisher
 /ws/install/my_py_pkg/lib/my_py_pkg/number_counter
 /ws/install/my_py_pkg/lib/my_py_pkg/number_publisher
 /ws/install/my_py_pkg/lib/my_py_pkg/py_node

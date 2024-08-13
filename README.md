@@ -14,7 +14,7 @@ docker run -it --rm \
 ```
 ## Enter to active container 
 ```
-
+docker exec -it ros2 bash
 ```
 
 ## Source setup.bash
