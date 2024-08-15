@@ -1,6 +1,10 @@
 # Learning-ROS2
 
 # Docker container
+
+## Build
+docker build -t ros2 .
+
 ## Run
 ```
 docker run -it --rm \
@@ -10,7 +14,7 @@ docker run -it --rm \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --name ros2 \
   -v /home/opg/Github/Learning-ROS2/first-ws:/ws \
-  osrf/ros:humble-desktop
+  ros2
 ```
 ## Enter to active container 
 ```
