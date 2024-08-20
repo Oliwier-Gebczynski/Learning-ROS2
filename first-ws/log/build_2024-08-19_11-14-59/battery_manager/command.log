@@ -1,0 +1,2 @@
+Invoking command in '/ws/build/battery_manager': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/battery_manager -DCMAKE_INSTALL_PREFIX=/ws/install/battery_manager
+Invoked command in '/ws/build/battery_manager' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/src/battery_manager -DCMAKE_INSTALL_PREFIX=/ws/install/battery_manager

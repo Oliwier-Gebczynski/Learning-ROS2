@@ -1,0 +1,2 @@
+/ws/build/battery_manager/rosidl_adapter/battery_manager:msg/LedStates.idl
+/ws/build/battery_manager/rosidl_adapter/battery_manager:srv/SetLed.idl

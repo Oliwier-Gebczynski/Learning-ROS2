@@ -27,7 +27,9 @@ setup(
 		"number_counter = my_py_pkg.number_counter:main",
 		"add_two_ints_server = my_py_pkg.add_two_ints_server:main",
 		"add_two_ints_client = my_py_pkg.add_two_ints_client:main",
-        "hw_status_publisher = my_py_pkg.hw_status_publisher:main"
+        "hw_status_publisher = my_py_pkg.hw_status_publisher:main",
+		"battery_level_publisher = my_py_pkg.battery_level_publisher:main",
+		"battery_node = my_py_pkg.battery_node:main"
         ],
     },
 )

@@ -1,0 +1,4 @@
+Invoking command in '/ws/build/battery_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /ws/build/battery_manager -- -j8 -l8
+Invoked command in '/ws/build/battery_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /ws/build/battery_manager -- -j8 -l8
+Invoking command in '/ws/build/battery_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /ws/build/battery_manager
+Invoked command in '/ws/build/battery_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /ws/build/battery_manager

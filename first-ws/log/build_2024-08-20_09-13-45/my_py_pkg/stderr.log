@@ -1,0 +1,5 @@
+  File "/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_node.py", line 50
+    		elif slef.battery_level =< 95:
+    		                        ^
+SyntaxError: invalid syntax
+

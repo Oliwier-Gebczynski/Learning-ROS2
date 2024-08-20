@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from battery_manager/srv/SetLed.srv
+// generated code does not contain a copyright notice
+
+
+module battery_manager {
+  module srv {
+    struct SetLed_Request {
+      int64 led_id;
+
+      boolean state;
+    };
+    struct SetLed_Response {
+      boolean switch_state;
+    };
+  };
+};

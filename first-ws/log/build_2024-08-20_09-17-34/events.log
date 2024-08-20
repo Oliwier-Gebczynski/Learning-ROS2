@@ -1,0 +1,418 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (battery_manager) JobQueued: {'identifier': 'battery_manager', 'dependencies': OrderedDict()}
+[0.000292] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000321] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/ws/install/my_robot_interfaces')])}
+[0.000343] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.005564] (battery_manager) JobStarted: {'identifier': 'battery_manager'}
+[0.009166] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.009591] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.010154] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/my_robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/ws/build/my_robot_interfaces', 'env': OrderedDict([('HOSTNAME', 'opgcode'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/my_robot_interfaces/lib:/ws/install/battery_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ws/install/my_py_pkg:/ws/install/my_robot_interfaces:/ws/install/battery_manager:/opt/ros/humble'), ('PWD', '/ws/build/my_robot_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ws/install/my_py_pkg/lib/python3.10/site-packages:/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/ws/install/battery_manager/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/my_robot_interfaces:/ws/install/battery_manager:/ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.012709] (battery_manager) JobProgress: {'identifier': 'battery_manager', 'progress': 'cmake'}
+[0.013297] (battery_manager) JobProgress: {'identifier': 'battery_manager', 'progress': 'build'}
+[0.013497] (battery_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/battery_manager', '--', '-j8', '-l8'], 'cwd': '/ws/build/battery_manager', 'env': OrderedDict([('HOSTNAME', 'opgcode'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/my_robot_interfaces/lib:/ws/install/battery_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ws/install/my_py_pkg:/ws/install/my_robot_interfaces:/ws/install/battery_manager:/opt/ros/humble'), ('PWD', '/ws/build/battery_manager'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ws/install/my_py_pkg/lib/python3.10/site-packages:/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/ws/install/battery_manager/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/my_robot_interfaces:/ws/install/battery_manager:/ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.056053] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] Built target my_robot_interfaces__cpp\n'}
+[0.056584] (battery_manager) StdoutLine: {'line': b'[ 10%] Built target battery_manager__rosidl_generator_c\n'}
+[0.056718] (battery_manager) StdoutLine: {'line': b'[ 12%] Built target battery_manager__cpp\n'}
+[0.060126] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[0.069066] (battery_manager) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_battery_manager\n'}
+[0.072072] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[0.084046] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[0.089628] (my_robot_interfaces) StdoutLine: {'line': b'[ 33%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.092787] (battery_manager) StdoutLine: {'line': b'[ 23%] Built target battery_manager__rosidl_typesupport_fastrtps_c\n'}
+[0.094640] (battery_manager) StdoutLine: {'line': b'[ 33%] Built target battery_manager__rosidl_typesupport_introspection_c\n'}
+[0.099371] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.099610] (-) TimerEvent: {}
+[0.100420] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.105400] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[0.106733] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.108805] (battery_manager) StdoutLine: {'line': b'[ 43%] Built target battery_manager__rosidl_typesupport_cpp\n'}
+[0.109044] (battery_manager) StdoutLine: {'line': b'[ 53%] Built target battery_manager__rosidl_typesupport_introspection_cpp\n'}
+[0.113413] (battery_manager) StdoutLine: {'line': b'[ 64%] Built target battery_manager__rosidl_typesupport_fastrtps_cpp\n'}
+[0.116837] (battery_manager) StdoutLine: {'line': b'[ 74%] Built target battery_manager__rosidl_typesupport_c\n'}
+[0.125569] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_robot_interfaces\n'}
+[0.134359] (battery_manager) StdoutLine: {'line': b'[ 74%] Built target battery_manager\n'}
+[0.143303] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces__py\n'}
+[0.151743] (battery_manager) StdoutLine: {'line': b'[ 76%] Built target battery_manager__py\n'}
+[0.161516] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[0.174804] (battery_manager) StdoutLine: {'line': b'[ 84%] Built target battery_manager__rosidl_generator_py\n'}
+[0.183647] (my_robot_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.187556] (my_robot_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.187684] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.198227] (battery_manager) StdoutLine: {'line': b'[ 89%] Built target battery_manager__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199872] (-) TimerEvent: {}
+[0.200647] (battery_manager) StdoutLine: {'line': b'[ 94%] Built target battery_manager__rosidl_typesupport_c__pyext\n'}
+[0.202483] (battery_manager) StdoutLine: {'line': b'[100%] Built target battery_manager__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.274126] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.274627] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[0.274949] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[0.275052] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[0.277562] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[0.278016] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[0.292453] (battery_manager) StdoutLine: {'line': b'running egg_info\n'}
+[0.292882] (battery_manager) StdoutLine: {'line': b'writing battery_manager.egg-info/PKG-INFO\n'}
+[0.293216] (battery_manager) StdoutLine: {'line': b'writing dependency_links to battery_manager.egg-info/dependency_links.txt\n'}
+[0.293362] (battery_manager) StdoutLine: {'line': b'writing top-level names to battery_manager.egg-info/top_level.txt\n'}
+[0.295707] (battery_manager) StdoutLine: {'line': b"reading manifest file 'battery_manager.egg-info/SOURCES.txt'\n"}
+[0.296155] (battery_manager) StdoutLine: {'line': b"writing manifest file 'battery_manager.egg-info/SOURCES.txt'\n"}
+[0.299555] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[0.299940] (-) TimerEvent: {}
+[0.309248] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[0.318206] (battery_manager) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_battery_manager_egg\n'}
+[0.327088] (battery_manager) CommandEnded: {'returncode': 0}
+[0.366752] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[0.373771] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/my_robot_interfaces'], 'cwd': '/ws/build/my_robot_interfaces', 'env': OrderedDict([('HOSTNAME', 'opgcode'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/my_robot_interfaces/lib:/ws/install/battery_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ws/install/my_py_pkg:/ws/install/my_robot_interfaces:/ws/install/battery_manager:/opt/ros/humble'), ('PWD', '/ws/build/my_robot_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ws/install/my_py_pkg/lib/python3.10/site-packages:/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/ws/install/battery_manager/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/my_robot_interfaces:/ws/install/battery_manager:/ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.380728] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.381051] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[0.381142] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.381258] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.381349] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.381439] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[0.381548] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[0.381590] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[0.381635] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[0.381678] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[0.381720] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.381761] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.381803] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[0.381844] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[0.381884] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[0.381925] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[0.381992] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[0.382044] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.382093] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[0.382277] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[0.382392] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[0.382436] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.382481] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.382524] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.382588] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[0.382629] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.382674] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.382716] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.382760] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.382832] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.382876] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.382922] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.382970] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.383014] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[0.383059] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[0.383238] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.383384] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.383512] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[0.383560] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[0.383863] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.383924] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.384228] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[0.384672] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.384960] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.385213] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.385308] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[0.385384] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[0.385472] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[0.385539] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[0.385598] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.385657] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.385718] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[0.385786] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[0.385846] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[0.385905] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[0.385955] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.385995] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.386035] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.386085] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.386125] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[0.386167] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.386207] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.386246] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[0.386286] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.386337] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.386378] (battery_manager) JobProgress: {'identifier': 'battery_manager', 'progress': 'install'}
+[0.386394] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.386437] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.386477] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.386517] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.386558] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.386599] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[0.386638] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.386677] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.386720] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[0.386768] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.386814] (battery_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/battery_manager'], 'cwd': '/ws/build/battery_manager', 'env': OrderedDict([('HOSTNAME', 'opgcode'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/my_robot_interfaces/lib:/ws/install/battery_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ws/install/my_py_pkg:/ws/install/my_robot_interfaces:/ws/install/battery_manager:/opt/ros/humble'), ('PWD', '/ws/build/battery_manager'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ws/install/my_py_pkg/lib/python3.10/site-packages:/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/ws/install/battery_manager/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/my_robot_interfaces:/ws/install/battery_manager:/ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.387019] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.387076] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.387120] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[0.387163] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[0.387211] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.387254] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.387295] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.387334] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.387374] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.387413] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[0.387452] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[0.387491] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.387531] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.387570] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.387610] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.387655] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.387697] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv\n'}
+[0.387738] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py\n'}
+[0.387779] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[0.387819] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[0.387858] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[0.387899] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[0.387940] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[0.387981] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[0.388022] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.388062] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[0.390782] (battery_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.390888] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/ament_index/resource_index/rosidl_interfaces/battery_manager\n'}
+[0.390932] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager\n'}
+[0.390975] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv\n'}
+[0.391042] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail\n'}
+[0.391129] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__struct.h\n'}
+[0.391173] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__type_support.h\n'}
+[0.391215] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__functions.h\n'}
+[0.391257] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__functions.c\n'}
+[0.391299] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/set_led.h\n'}
+[0.391340] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg\n'}
+[0.391381] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail\n'}
+[0.391460] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__struct.h\n'}
+[0.391504] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__functions.c\n'}
+[0.391547] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__type_support.h\n'}
+[0.391589] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__functions.h\n'}
+[0.391669] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.391721] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/led_states.h\n'}
+[0.391790] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/library_path.sh\n'}
+[0.391851] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/library_path.dsv\n'}
+[0.391915] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_generator_c.so\n'}
+[0.392051] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager\n'}
+[0.392165] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv\n'}
+[0.392207] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail\n'}
+[0.392266] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[0.392314] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg\n'}
+[0.392354] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail\n'}
+[0.392413] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h\n'}
+[0.392463] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.392545] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_fastrtps_c.so\n'}
+[0.392638] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager\n'}
+[0.392729] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv\n'}
+[0.392788] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail\n'}
+[0.392855] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__type_support.c\n'}
+[0.392943] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[0.393020] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg\n'}
+[0.393063] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail\n'}
+[0.393107] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__type_support.c\n'}
+[0.393149] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_introspection_c.h\n'}
+[0.393207] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.393249] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_introspection_c.so\n'}
+[0.393289] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_c.so\n'}
+[0.393332] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager\n'}
+[0.393403] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv\n'}
+[0.393470] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail\n'}
+[0.393543] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__struct.hpp\n'}
+[0.393616] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__traits.hpp\n'}
+[0.393658] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__builder.hpp\n'}
+[0.393697] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/set_led.hpp\n'}
+[0.393754] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg\n'}
+[0.393794] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail\n'}
+[0.393836] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__traits.hpp\n'}
+[0.393877] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__struct.hpp\n'}
+[0.393932] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__builder.hpp\n'}
+[0.393974] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/led_states.hpp\n'}
+[0.394060] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager\n'}
+[0.394115] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv\n'}
+[0.394154] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail\n'}
+[0.394196] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.394251] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/dds_fastrtps\n'}
+[0.394305] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg\n'}
+[0.394347] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail\n'}
+[0.394402] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.394443] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/dds_fastrtps\n'}
+[0.394484] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.394572] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.394660] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager\n'}
+[0.394756] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv\n'}
+[0.394837] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail\n'}
+[0.394879] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__type_support.cpp\n'}
+[0.394919] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.394960] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg\n'}
+[0.394999] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail\n'}
+[0.395037] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.395077] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__type_support.cpp\n'}
+[0.395120] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_introspection_cpp.so\n'}
+[0.395161] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_cpp.so\n'}
+[0.395200] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/pythonpath.sh\n'}
+[0.395239] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/pythonpath.dsv\n'}
+[0.395278] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info\n'}
+[0.395316] (battery_manager) StdoutLine: {'line': b'-- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.395356] (battery_manager) StdoutLine: {'line': b'-- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.395393] (battery_manager) StdoutLine: {'line': b'-- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.395432] (battery_manager) StdoutLine: {'line': b'-- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.395471] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager\n'}
+[0.395509] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/__init__.py\n'}
+[0.395548] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/_battery_manager_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.395588] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv\n'}
+[0.395627] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/__init__.py\n'}
+[0.395669] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/_set_led.py\n'}
+[0.395710] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/_set_led_s.c\n'}
+[0.395754] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/libbattery_manager__rosidl_generator_py.so\n'}
+[0.395799] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/_battery_manager_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.395851] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg\n'}
+[0.395897] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/__init__.py\n'}
+[0.395939] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/_led_states_s.c\n'}
+[0.395980] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/_led_states.py\n'}
+[0.396019] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.396058] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.396107] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/_battery_manager_s.ep.rosidl_typesupport_c.c\n'}
+[0.396148] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.400038] (-) TimerEvent: {}
+[0.411150] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[0.411291] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[0.411336] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...\n"}
+[0.414581] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.414734] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.414903] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.415083] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[0.415195] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[0.415260] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[0.415317] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[0.415380] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[0.415443] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[0.415516] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[0.415562] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[0.415607] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[0.415670] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[0.415750] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.415795] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[0.415841] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[0.415883] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[0.415923] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[0.415991] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[0.416031] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[0.416091] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[0.416133] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[0.416197] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.416268] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.416313] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.416382] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.416453] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.416495] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.416566] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.416608] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.416672] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.416734] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.416796] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.416861] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.416925] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.416986] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.417104] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.417152] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.417229] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.417294] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.417346] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.417403] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.417484] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.417571] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.417614] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.417657] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.417696] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[0.417736] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[0.417775] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[0.419198] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[0.420079] (battery_manager) StdoutLine: {'line': b"Listing '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager'...\n"}
+[0.420226] (battery_manager) StdoutLine: {'line': b"Listing '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg'...\n"}
+[0.420335] (battery_manager) StdoutLine: {'line': b"Listing '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv'...\n"}
+[0.423643] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.423800] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.424189] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.424489] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/lib/libbattery_manager__rosidl_generator_py.so\n'}
+[0.424570] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/msg/LedStates.idl\n'}
+[0.424621] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/srv/SetLed.idl\n'}
+[0.424667] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/msg/LedStates.msg\n'}
+[0.424718] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/srv/SetLed.srv\n'}
+[0.424784] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/srv/SetLed_Request.msg\n'}
+[0.424827] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/srv/SetLed_Response.msg\n'}
+[0.424896] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager\n'}
+[0.424938] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager\n'}
+[0.424979] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh\n'}
+[0.425035] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv\n'}
+[0.425196] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/path.sh\n'}
+[0.425242] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/environment/path.dsv\n'}
+[0.425305] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/local_setup.bash\n'}
+[0.425347] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/local_setup.sh\n'}
+[0.425838] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/local_setup.zsh\n'}
+[0.425883] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/local_setup.dsv\n'}
+[0.425923] (battery_manager) StdoutLine: {'line': b'-- Installing: /ws/install/battery_manager/share/battery_manager/package.dsv\n'}
+[0.425964] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager\n'}
+[0.426004] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_cExport.cmake\n'}
+[0.426052] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.426388] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.426483] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.426552] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.426597] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.426644] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cExport.cmake\n'}
+[0.426689] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.426745] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_cppExport.cmake\n'}
+[0.426798] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.426842] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.426887] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.426982] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.427268] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cppExport.cmake\n'}
+[0.427364] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.427417] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_pyExport.cmake\n'}
+[0.427468] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.427520] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/rosidl_cmake-extras.cmake\n'}
+[0.427775] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.427843] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.427888] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.427931] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.427972] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.428015] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.428128] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake\n'}
+[0.428238] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake\n'}
+[0.428283] (battery_manager) StdoutLine: {'line': b'-- Up-to-date: /ws/install/battery_manager/share/battery_manager/package.xml\n'}
+[0.434310] (battery_manager) CommandEnded: {'returncode': 0}
+[0.496005] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[0.496982] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.500293] (-) TimerEvent: {}
+[0.506561] (battery_manager) JobEnded: {'identifier': 'battery_manager', 'rc': 0}
+[0.600418] (-) TimerEvent: {}
+[0.700737] (-) TimerEvent: {}
+[0.801009] (-) TimerEvent: {}
+[0.899875] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/ws/build/my_py_pkg/build', 'install', '--record', '/ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ws/src/my_py_pkg', 'env': {'HOSTNAME': 'opgcode', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/my_robot_interfaces/lib:/ws/install/battery_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ws/install/my_py_pkg:/ws/install/my_robot_interfaces:/ws/install/battery_manager:/opt/ros/humble', 'PWD': '/ws/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/my_py_pkg/lib/python3.10/site-packages:/ws/install/my_py_pkg/lib/python3.10/site-packages:/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/ws/install/battery_manager/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/my_robot_interfaces:/ws/install/battery_manager'}, 'shell': False}
+[0.901076] (-) TimerEvent: {}
+[1.001245] (-) TimerEvent: {}
+[1.048900] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.049320] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.049484] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.049610] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.049685] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.049745] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.051083] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.051702] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.051769] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.051809] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.052063] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/battery_node.py -> /ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[1.052412] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.052698] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.053394] (my_py_pkg) StdoutLine: {'line': b'copying /ws/build/my_py_pkg/build/lib/my_py_pkg/battery_node.py -> /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.054033] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_node.py to battery_node.cpython-310.pyc\n'}
+[1.054621] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.054687] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.055951] (my_py_pkg) StdoutLine: {'line': b"removing '/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.056133] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.056675] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.071947] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072115] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072189] (my_py_pkg) StdoutLine: {'line': b'Installing battery_level_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072256] (my_py_pkg) StdoutLine: {'line': b'Installing battery_node script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072296] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072337] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072380] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072433] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072489] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072529] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.072758] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/ws/build/my_py_pkg/install.log'\n"}
+[1.092077] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.096240] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.096757] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+[0.403s] Invoking command in '/ws/src/my_py_pkg': PYTHONPATH=/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /ws/build/my_py_pkg/build install --record /ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.552s] running egg_info
+[0.553s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.553s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.553s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.553s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.554s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.555s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] copying my_py_pkg/battery_node.py -> /ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.556s] running install
+[0.556s] running install_lib
+[0.557s] copying /ws/build/my_py_pkg/build/lib/my_py_pkg/battery_node.py -> /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.558s] byte-compiling /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_node.py to battery_node.cpython-310.pyc
+[0.558s] running install_data
+[0.558s] running install_egg_info
+[0.558s]   File "/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_node.py", line 50
+[0.559s]     		elif slef.battery_level =< 95:
+[0.559s]     		                        ^
+[0.559s] SyntaxError: invalid syntax
+[0.559s] 
+[0.560s] removing '/ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.560s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.561s] running install_scripts
+[0.576s] Installing add_two_ints_client script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing add_two_ints_server script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing battery_level_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing battery_node script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing hw_status_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing number_counter script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing number_publisher script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing py_node script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing robot_news_station script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.576s] Installing smartphone script to /ws/install/my_py_pkg/lib/my_py_pkg
+[0.577s] writing list of installed files to '/ws/build/my_py_pkg/install.log'
+[0.596s] Invoked command in '/ws/src/my_py_pkg' returned '0': PYTHONPATH=/ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /ws/build/my_py_pkg/build install --record /ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

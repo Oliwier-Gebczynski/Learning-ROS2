@@ -69,3 +69,8 @@ if __name__ == "__main__":
 xhost +local:docker
 ```
 
+# ROS2 package
+
+```
+ros2 pkg create <name>
+```

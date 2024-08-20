@@ -1,0 +1,7 @@
+{
+  "package_name": "battery_manager",
+  "non_idl_tuples": [
+    "/ws/src/battery_manager:msg/LedStates.msg",
+    "/ws/src/battery_manager:srv/SetLed.srv"
+  ]
+}

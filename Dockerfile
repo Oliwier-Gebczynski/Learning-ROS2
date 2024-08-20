@@ -6,7 +6,7 @@ RUN apt-get install -y nano
 
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc \
     && echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc \
-    && echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+    && echo "source ~/ws/install/setup.bash" >> ~/.bashrc
 
 RUN /bin/bash -c "source ~/.bashrc"
 

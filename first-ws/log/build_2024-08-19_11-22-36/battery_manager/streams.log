@@ -1,0 +1,256 @@
+[0.009s] Invoking command in '/ws/build/battery_manager': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/battery_manager -- -j8 -l8
+[0.029s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.739s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.774s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.774s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.774s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.782s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.789s] -- Added test 'lint_cmake' to check CMake code style
+[0.790s] -- Added test 'xmllint' to check XML markup files
+[0.791s] -- Configuring done
+[0.811s] -- Generating done
+[0.813s] -- Build files have been written to: /ws/build/battery_manager
+[0.832s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.842s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.849s] [  5%] Built target ament_cmake_python_copy_battery_manager
+[1.104s] [35m[1mConsolidate compiler generated dependencies of target battery_manager__rosidl_generator_c[0m
+[1.114s] [  7%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_generator_c.dir/rosidl_generator_c/battery_manager/msg/detail/led_states__functions.c.o[0m
+[1.116s] [ 10%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_generator_c.dir/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c.o[0m
+[1.124s] running egg_info
+[1.125s] writing battery_manager.egg-info/PKG-INFO
+[1.126s] writing dependency_links to battery_manager.egg-info/dependency_links.txt
+[1.126s] writing top-level names to battery_manager.egg-info/top_level.txt
+[1.131s] reading manifest file 'battery_manager.egg-info/SOURCES.txt'
+[1.131s] writing manifest file 'battery_manager.egg-info/SOURCES.txt'
+[1.165s] [ 10%] Built target ament_cmake_python_build_battery_manager_egg
+[1.168s] [ 12%] [32m[1mLinking C shared library libbattery_manager__rosidl_generator_c.so[0m
+[1.197s] [ 12%] Built target battery_manager__rosidl_generator_c
+[1.208s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.208s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.208s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.226s] [ 20%] Built target battery_manager__cpp
+[1.237s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.237s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.238s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.567s] [ 30%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_manager/msg/detail/led_states__type_support.c.o[0m
+[1.568s] [ 33%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_manager/srv/detail/set_led__type_support.c.o[0m
+[1.580s] [35m[1mConsolidate compiler generated dependencies of target battery_manager__rosidl_typesupport_cpp[0m
+[1.581s] [ 35%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_manager/srv/set_led__type_support.cpp.o[0m
+[1.581s] [ 38%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_manager/msg/led_states__type_support.cpp.o[0m
+[1.594s] [ 41%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_manager/msg/led_states__type_support.cpp.o[0m
+[1.616s] [ 43%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_manager/srv/set_led__type_support.cpp.o[0m
+[1.633s] [ 46%] [32m[1mLinking C shared library libbattery_manager__rosidl_typesupport_introspection_c.so[0m
+[1.640s] [ 48%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_manager/msg/detail/led_states__type_support_c.cpp.o[0m
+[1.645s] [ 53%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_manager/srv/detail/set_led__type_support_c.cpp.o[0m
+[1.647s] [ 53%] [32m[1mLinking CXX shared library libbattery_manager__rosidl_typesupport_c.so[0m
+[1.647s] [35m[1mConsolidate compiler generated dependencies of target battery_manager__rosidl_typesupport_introspection_cpp[0m
+[1.648s] [35m[1mConsolidate compiler generated dependencies of target battery_manager__rosidl_typesupport_fastrtps_cpp[0m
+[1.664s] [ 56%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_manager/msg/detail/led_states__type_support.cpp.o[0m
+[1.676s] [ 58%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_manager/msg/detail/dds_fastrtps/led_states__type_support.cpp.o[0m
+[1.688s] [ 58%] Built target battery_manager__rosidl_typesupport_introspection_c
+[1.698s] [ 61%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp.o[0m
+[1.700s] [ 61%] Built target battery_manager__rosidl_typesupport_c
+[1.712s] [ 64%] [32mBuilding CXX object CMakeFiles/battery_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp.o[0m
+[1.973s] [ 66%] [32m[1mLinking CXX shared library libbattery_manager__rosidl_typesupport_cpp.so[0m
+[2.042s] [ 66%] Built target battery_manager__rosidl_typesupport_cpp
+[2.104s] [ 69%] [32m[1mLinking CXX shared library libbattery_manager__rosidl_typesupport_fastrtps_c.so[0m
+[2.179s] [ 71%] [32m[1mLinking CXX shared library libbattery_manager__rosidl_typesupport_introspection_cpp.so[0m
+[2.210s] [ 71%] Built target battery_manager__rosidl_typesupport_fastrtps_c
+[2.212s] [ 71%] Built target battery_manager__rosidl_typesupport_introspection_cpp
+[2.217s] [ 74%] [32m[1mLinking CXX shared library libbattery_manager__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.280s] [ 74%] Built target battery_manager__rosidl_typesupport_fastrtps_cpp
+[2.296s] [ 74%] Built target battery_manager
+[2.312s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.617s] [ 76%] Built target battery_manager__py
+[2.634s] [ 82%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_generator_py.dir/rosidl_generator_py/battery_manager/msg/_led_states_s.c.o[0m
+[2.634s] [ 82%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_generator_py.dir/rosidl_generator_py/battery_manager/srv/_set_led_s.c.o[0m
+[2.711s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/battery_manager/libbattery_manager__rosidl_generator_py.so[0m
+[2.744s] [ 84%] Built target battery_manager__rosidl_generator_py
+[2.760s] [ 92%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/battery_manager/_battery_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.760s] [ 92%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/battery_manager/_battery_manager_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.760s] [ 92%] [32mBuilding C object CMakeFiles/battery_manager__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/battery_manager/_battery_manager_s.ep.rosidl_typesupport_c.c.o[0m
+[2.835s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/battery_manager/battery_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.835s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/battery_manager/battery_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.840s] [100%] [32m[1mLinking C shared library rosidl_generator_py/battery_manager/battery_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.862s] [100%] Built target battery_manager__rosidl_typesupport_c__pyext
+[2.862s] [100%] Built target battery_manager__rosidl_typesupport_introspection_c__pyext
+[2.866s] [100%] Built target battery_manager__rosidl_typesupport_fastrtps_c__pyext
+[2.876s] Invoked command in '/ws/build/battery_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/build/battery_manager -- -j8 -l8
+[2.931s] Invoking command in '/ws/build/battery_manager': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/battery_manager
+[2.939s] -- Install configuration: ""
+[2.939s] -- Installing: /ws/install/battery_manager/share/ament_index/resource_index/rosidl_interfaces/battery_manager
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__struct.h
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__type_support.h
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__functions.h
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__functions.c
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/set_led.h
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail
+[2.940s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__struct.h
+[2.941s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__functions.c
+[2.941s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__type_support.h
+[2.941s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__functions.h
+[2.941s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_generator_c__visibility_control.h
+[2.941s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/led_states.h
+[2.941s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/library_path.sh
+[2.941s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/library_path.dsv
+[2.941s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_generator_c.so
+[2.942s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_generator_c.so" to ""
+[2.942s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager
+[2.942s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv
+[2.942s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail
+[2.942s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[2.942s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg
+[2.942s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail
+[2.942s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h
+[2.942s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.942s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_fastrtps_c.so
+[2.943s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_fastrtps_c.so" to ""
+[2.943s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager
+[2.943s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv
+[2.943s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail
+[2.943s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__type_support.c
+[2.943s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[2.943s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg
+[2.943s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail
+[2.943s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__type_support.c
+[2.944s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_introspection_c.h
+[2.944s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.944s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_introspection_c.so
+[2.944s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_introspection_c.so" to ""
+[2.944s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_c.so
+[2.944s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_c.so" to ""
+[2.944s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager
+[2.944s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv
+[2.944s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail
+[2.944s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__struct.hpp
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__traits.hpp
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__builder.hpp
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/set_led.hpp
+[2.945s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg
+[2.945s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__traits.hpp
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__struct.hpp
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__builder.hpp
+[2.945s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/led_states.hpp
+[2.945s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager
+[2.945s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv
+[2.946s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail
+[2.946s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[2.946s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/dds_fastrtps
+[2.946s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg
+[2.946s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail
+[2.946s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp
+[2.946s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/dds_fastrtps
+[2.946s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.946s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_fastrtps_cpp.so
+[2.947s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.947s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager
+[2.947s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv
+[2.947s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail
+[2.947s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__type_support.cpp
+[2.947s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[2.947s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg
+[2.947s] -- Up-to-date: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail
+[2.947s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp
+[2.947s] -- Installing: /ws/install/battery_manager/include/battery_manager/battery_manager/msg/detail/led_states__type_support.cpp
+[2.947s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_introspection_cpp.so
+[2.948s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_introspection_cpp.so" to ""
+[2.948s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_cpp.so
+[2.948s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_typesupport_cpp.so" to ""
+[2.948s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/pythonpath.sh
+[2.948s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/pythonpath.dsv
+[2.948s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info
+[2.948s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/top_level.txt
+[2.948s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.948s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/PKG-INFO
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/__init__.py
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/_battery_manager_s.ep.rosidl_typesupport_introspection_c.c
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/__init__.py
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/_set_led.py
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/_set_led_s.c
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/libbattery_manager__rosidl_generator_py.so
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/_battery_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/__init__.py
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/_led_states_s.c
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/_led_states.py
+[2.949s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.950s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.950s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/_battery_manager_s.ep.rosidl_typesupport_c.c
+[2.950s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.977s] Listing '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager'...
+[2.977s] Compiling '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/__init__.py'...
+[2.977s] Listing '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg'...
+[2.977s] Compiling '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/__init__.py'...
+[2.977s] Compiling '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/msg/_led_states.py'...
+[2.977s] Listing '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv'...
+[2.977s] Compiling '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/__init__.py'...
+[2.977s] Compiling '/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/srv/_set_led.py'...
+[2.981s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.981s] -- Set runtime path of "/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.981s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.981s] -- Set runtime path of "/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.981s] -- Installing: /ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.982s] -- Set runtime path of "/ws/install/battery_manager/local/lib/python3.10/dist-packages/battery_manager/battery_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.982s] -- Installing: /ws/install/battery_manager/lib/libbattery_manager__rosidl_generator_py.so
+[2.982s] -- Set runtime path of "/ws/install/battery_manager/lib/libbattery_manager__rosidl_generator_py.so" to ""
+[2.982s] -- Installing: /ws/install/battery_manager/share/battery_manager/msg/LedStates.idl
+[2.982s] -- Installing: /ws/install/battery_manager/share/battery_manager/srv/SetLed.idl
+[2.982s] -- Installing: /ws/install/battery_manager/share/battery_manager/msg/LedStates.msg
+[2.982s] -- Installing: /ws/install/battery_manager/share/battery_manager/srv/SetLed.srv
+[2.983s] -- Installing: /ws/install/battery_manager/share/battery_manager/srv/SetLed_Request.msg
+[2.983s] -- Installing: /ws/install/battery_manager/share/battery_manager/srv/SetLed_Response.msg
+[2.983s] -- Installing: /ws/install/battery_manager/share/ament_index/resource_index/package_run_dependencies/battery_manager
+[2.983s] -- Installing: /ws/install/battery_manager/share/ament_index/resource_index/parent_prefix_path/battery_manager
+[2.983s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.sh
+[2.983s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/ament_prefix_path.dsv
+[2.983s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/path.sh
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/environment/path.dsv
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/local_setup.bash
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/local_setup.sh
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/local_setup.zsh
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/local_setup.dsv
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/package.dsv
+[2.984s] -- Installing: /ws/install/battery_manager/share/ament_index/resource_index/packages/battery_manager
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_cExport.cmake
+[2.984s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_cExport-noconfig.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cExport.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cExport.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cExport.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cExport-noconfig.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_cppExport.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.985s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cppExport.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cppExport.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_manager__rosidl_typesupport_cppExport-noconfig.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_pyExport.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/export_battery_manager__rosidl_generator_pyExport-noconfig.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/rosidl_cmake-extras.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_targets-extras.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.986s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.987s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.987s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig.cmake
+[2.987s] -- Installing: /ws/install/battery_manager/share/battery_manager/cmake/battery_managerConfig-version.cmake
+[2.987s] -- Installing: /ws/install/battery_manager/share/battery_manager/package.xml
+[2.989s] Invoked command in '/ws/build/battery_manager' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/build/battery_manager

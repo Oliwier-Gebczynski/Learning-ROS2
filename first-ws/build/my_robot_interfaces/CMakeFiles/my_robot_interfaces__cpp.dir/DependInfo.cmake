@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp" "/ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   )
 
 

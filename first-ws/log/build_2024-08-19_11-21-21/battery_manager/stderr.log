@@ -1,0 +1,150 @@
+In file included from [01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.h:19[m[K,
+                 from [01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c:4[m[K:
+[01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__struct.h:43:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before ‘[01m[Kswitch[m[K’
+   43 |   bool [01;31m[Kswitch[m[K;
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__struct.h:44:1:[m[K [01;35m[Kwarning: [m[Kno semicolon at end of struct or union
+   44 | [01;35m[K}[m[K battery_manager__srv__SetLed_Response;
+      | [01;35m[K^[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c:[m[K In function ‘[01m[Kbattery_manager__srv__SetLed_Response__are_equal[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c:272:12:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kswitch[m[K’
+  272 |   if (lhs->[01;31m[Kswitch[m[K != rhs->switch) {
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c:[m[K In function ‘[01m[Kbattery_manager__srv__SetLed_Response__copy[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c:287:11:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kswitch[m[K’
+  287 |   output->[01;31m[Kswitch[m[K = input->switch;
+      |           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/battery_manager__rosidl_generator_c.dir/build.make:135: CMakeFiles/battery_manager__rosidl_generator_c.dir/rosidl_generator_c/battery_manager/srv/detail/set_led__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/battery_manager__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:4[m[K:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:186:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  186 |   _switch_type [01;31m[Kswitch[m[K;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In constructor ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::SetLed_Response_(rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:169:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  169 |       this->[01;31m[Kswitch[m[K = false;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In constructor ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::SetLed_Response_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:179:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  179 |       this->[01;31m[Kswitch[m[K = false;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In member function ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::Type& battery_manager::srv::SetLed_Response_<ContainerAllocator>::set__switch(const bool&)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:192:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  192 |     this->[01;31m[Kswitch[m[K = _arg;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In member function ‘[01m[Kbool battery_manager::srv::SetLed_Response_<ContainerAllocator>::operator==(const battery_manager::srv::SetLed_Response_<ContainerAllocator>&) const[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  238 |     if (this->[01;31m[Kswitch[m[K != other.switch) {
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:8:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  238 |     if [01;36m[K([m[Kthis->switch != other.switch) {
+      |        [01;36m[K^[m[K
+In file included from [01m[K/ws/build/battery_manager/rosidl_typesupport_cpp/battery_manager/srv/set_led__type_support.cpp:7[m[K:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:186:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  186 |   _switch_type [01;31m[Kswitch[m[K;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In constructor ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::SetLed_Response_(rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:169:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  169 |       this->[01;31m[Kswitch[m[K = false;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In constructor ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::SetLed_Response_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:179:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  179 |       this->[01;31m[Kswitch[m[K = false;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In member function ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::Type& battery_manager::srv::SetLed_Response_<ContainerAllocator>::set__switch(const bool&)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:192:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  192 |     this->[01;31m[Kswitch[m[K = _arg;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In member function ‘[01m[Kbool battery_manager::srv::SetLed_Response_<ContainerAllocator>::operator==(const battery_manager::srv::SetLed_Response_<ContainerAllocator>&) const[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  238 |     if (this->[01;31m[Kswitch[m[K != other.switch) {
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:8:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  238 |     if [01;36m[K([m[Kthis->switch != other.switch) {
+      |        [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/battery_manager__rosidl_typesupport_cpp.dir/build.make:104: CMakeFiles/battery_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_manager/srv/set_led__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:[m[K In function ‘[01m[Kbool battery_manager::srv::typesupport_fastrtps_cpp::cdr_serialize(const SetLed_Response&, eprosima::fastcdr::Cdr&)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:272:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  272 |   cdr << (ros_message.[01;31m[Kswitch[m[K ? true : false);
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:272:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+  272 |   cdr << [34m[K([m[Kros_message.[01;31m[Ks[m[K[32m[Kwitch[m[K ? true : false);
+      |          [34m[K~[m[K            [01;31m[K^[m[K[32m[K~~~~~[m[K
+      |                       [32m[K)[m[K
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:[m[K In function ‘[01m[Kbool battery_manager::srv::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, battery_manager::srv::SetLed_Response&)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:286:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  286 |     ros_message.[01;31m[Kswitch[m[K = tmp ? true : false;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:[m[K In function ‘[01m[Ksize_t battery_manager::srv::typesupport_fastrtps_cpp::get_serialized_size(const SetLed_Response&, size_t)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:307:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  307 |     size_t item_size = sizeof(ros_message.[01;31m[Kswitch[m[K);
+      |                                           [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:307:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+  307 |     size_t item_size = sizeof[34m[K([m[Kros_message.[01;31m[Ks[m[K[32m[Kwitch[m[K);
+      |                              [34m[K~[m[K            [01;31m[K^[m[K[32m[K~~~~~[m[K
+      |                                           [32m[K)[m[K
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:462[m[K,
+                 from [01m[K/opt/ros/humble/include/fastcdr/fastcdr/FastBuffer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/fastcdr/fastcdr/Cdr.h:19[m[K,
+                 from [01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp:25[m[K,
+                 from [01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:4[m[K:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:[m[K In function ‘[01m[Ksize_t battery_manager::srv::typesupport_fastrtps_cpp::max_serialized_size_SetLed_Response(bool&, bool&, size_t)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:351:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  351 |       offsetof(DataType, [01;31m[Kswitch[m[K) +
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:351:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+[01m[K/ws/build/battery_manager/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp:351:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  351 |       [01;36m[Koffsetof[m[K(DataType, switch) +
+      |       [01;36m[K^~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/battery_manager__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_cpp.dir/build.make:112: CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_manager/srv/detail/dds_fastrtps/set_led__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/battery_manager__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+In file included from [01m[K/ws/build/battery_manager/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp:12[m[K:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:186:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  186 |   _switch_type [01;31m[Kswitch[m[K;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In constructor ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::SetLed_Response_(rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:169:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  169 |       this->[01;31m[Kswitch[m[K = false;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In constructor ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::SetLed_Response_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:179:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  179 |       this->[01;31m[Kswitch[m[K = false;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In member function ‘[01m[Kbattery_manager::srv::SetLed_Response_<ContainerAllocator>::Type& battery_manager::srv::SetLed_Response_<ContainerAllocator>::set__switch(const bool&)[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:192:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  192 |     this->[01;31m[Kswitch[m[K = _arg;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:[m[K In member function ‘[01m[Kbool battery_manager::srv::SetLed_Response_<ContainerAllocator>::operator==(const battery_manager::srv::SetLed_Response_<ContainerAllocator>&) const[m[K’:
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  238 |     if (this->[01;31m[Kswitch[m[K != other.switch) {
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+[01m[K/ws/build/battery_manager/rosidl_generator_cpp/battery_manager/srv/detail/set_led__struct.hpp:238:8:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  238 |     if [01;36m[K([m[Kthis->switch != other.switch) {
+      |        [01;36m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+                 from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/ws/build/battery_manager/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp:7[m[K:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp:[m[K At global scope:
+[01m[K/ws/build/battery_manager/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp:185:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kswitch[m[K’
+  185 |     offsetof(battery_manager::srv::SetLed_Response, [01;31m[Kswitch[m[K),  // bytes offset in struct
+      |                                                     [01;31m[K^~~~~~[m[K
+[01m[K/ws/build/battery_manager/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp:185:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kswitch[m[K’
+[01m[K/ws/build/battery_manager/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp:185:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  185 |     [01;36m[Koffsetof[m[K(battery_manager::srv::SetLed_Response, switch),  // bytes offset in struct
+      |     [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/battery_manager__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/battery_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_manager/srv/detail/set_led__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/battery_manager__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
