@@ -6,7 +6,8 @@ from battery_manager.srv import SetLed
 class BatteryLevelPublisherNode(Node):
 	def __init__(self):
 		super().__init__("battery_level_publisher")
-		self.battery_state_ = [1,1,1]
+		self.declare_parameter("battery_lvl", [1,1,1])
+		self.battery_state_ = self.get_parameter("battery_lvl").value
 		self.battery_level_publisher_ = self.create_publisher(LedStates, "battery_level", 10)
 		self.timer_ = self.create_timer(1.0, self.publish_battery_level)
 		self.set_led_service = self.create_service(SetLed, "set_led", self.callback_set_led)
