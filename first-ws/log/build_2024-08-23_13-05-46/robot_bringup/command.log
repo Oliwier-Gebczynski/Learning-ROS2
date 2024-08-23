@@ -1,0 +1,6 @@
+Invoking command in '/ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /ws/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/ws/install/robot_bringup
+Invoked command in '/ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /ws/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/ws/install/robot_bringup
+Invoking command in '/ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /ws/build/robot_bringup -- -j8 -l8
+Invoked command in '/ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /ws/build/robot_bringup -- -j8 -l8
+Invoking command in '/ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /ws/build/robot_bringup
+Invoked command in '/ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /ws/build/robot_bringup

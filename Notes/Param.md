@@ -9,8 +9,8 @@ ros2 param get <node_name> <param_name>
 ```
 
 ```python
-self.declare_parameter("TestNumber")
-self.number_ = self.get_parameter("TestNumber")
+self.declare_parameter("TestNumber", <default_param>)
+self.number_ = self.get_parameter("TestNumber").value
 ```
 
 ```
