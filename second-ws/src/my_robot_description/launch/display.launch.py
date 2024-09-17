@@ -1,42 +1,3 @@
-# Urdf
-
-```
-ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro my_robot.urdf)"
-```
-
-```
-ros2 run joint_state_publisher_gui joint_state_publisher_gui
-```
-
-```
-ros2 param get /robot_state_publisher robot_description
-```
-
-CMakeLists.txt
-```
-install(
-    DIRECTORY urdf
-    DESTINATION share/${PROJECT_NAME}/
-)
-```
-
-XML launch file
-```
-<launch>
-    <let name="urdf_path" value="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf" />
-    <let name="rviz_config_path" value="$(find-pkg-share my_robot_description)/rviz/config.rviz" />
-
-    <node pkg="robot_state_publisher" exec="robot_state_publisher">
-        <param name="robot_description" value="$(command 'xacro $(var urdf_path)')" />
-    </node>
-
-    <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui" />
-    <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var rviz_config_path)" />
-</launch>
-```
-
-Python launch file
-```
 from launch import LaunchDescription
 from launch_ros.parameter_descriptions import ParameterValue 
 from launch.substitutions import Command
@@ -71,5 +32,3 @@ def generate_launch_description():
         joint_state_publisher_gui_node,
         rviz2_node
     ])
-
-```
