@@ -73,3 +73,26 @@ def generate_launch_description():
     ])
 
 ```
+
+To use xacro in urdf file
+```
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro"> 
+```
+
+Xacro variables
+```
+<xacro:property name="base_length" value="0.6" />
+```
+
+Usage
+```
+ <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${base_length} 0.4 0.2" />
+            </geometry>
+            <origin xyz="0 0 0.1" rpy="0 0 0" />
+            <material name="blue" />
+        </visual>
+    </link>
+```

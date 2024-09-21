@@ -1,4 +1,4 @@
-/ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+/ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
 /ws/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
 /ws/install/my_robot_description/share/my_robot_description//launch/display.launch.py
 /ws/install/my_robot_description/share/my_robot_description//rviz/config.rviz
