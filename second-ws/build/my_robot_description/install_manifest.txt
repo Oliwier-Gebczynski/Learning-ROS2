@@ -1,3 +1,5 @@
+/ws/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+/ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
 /ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
 /ws/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
 /ws/install/my_robot_description/share/my_robot_description//launch/display.launch.py

@@ -96,3 +96,42 @@ Usage
         </visual>
     </link>
 ```
+
+Xacro macro
+```
+<xacro:macro name="wheel_link" params="prefix">
+    <link name="${prefix}_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+            <material name="grey" />
+        </visual>
+    </link>
+</xacro:macro>
+```
+
+```
+<xacro:wheel_link prefix="right"/>
+<xacro:wheel_link prefix="left"/>
+```
+
+File include
+```
+<xacro:include filename="common_properties.xacro" />
+```
+
+Include mesh (blender etc.)
+
+CMakeLists.txt
+```
+install(DIRECTORY meshes rviz urdf
+    DESTINATION share/${PROJECT_NAME}
+)
+```
+
+URDF
+```
+<mesh filename="file/path" scale="1 1 1"/>
+```
