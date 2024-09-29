@@ -16,6 +16,7 @@
                 <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
                 <material name="grey" />
             </visual>
+            <xacro:sphere_interia m="1.0" r="${wheel_radius}" h="${wheel_length}" xyz="0 0 0" rpy="${pi / 2.0} 0 0"/>
         </link>
     </xacro:macro>
 
@@ -32,6 +33,7 @@
             <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0" />
             <material name="blue" />
         </visual>
+        <xacro:box_interia m="5.0" l="${base_length}" w="${base_width}" h="${base_height}" xyz="0 0 ${base_height / 2}" rpy="0 0 0"/>
     </link>
 
     <link name="caster_wheel_link">
@@ -42,6 +44,7 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="grey" />
         </visual>
+        <xacro:sphere_interia m="0.5" r="${wheel_radius}" xyz="0 0 0" rpy="0 0 0"/>
     </link>
 
     <joint name="base_joint" type="fixed">
