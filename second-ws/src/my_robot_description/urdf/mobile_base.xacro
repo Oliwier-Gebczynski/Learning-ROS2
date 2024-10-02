@@ -7,9 +7,12 @@
     <xacro:property name="wheel_radius" value="0.1" />
     <xacro:property name="wheel_length" value="0.05" />
 
+    <!-- Base footprint -->
     <link name="base_footprint" />
 
+    <!-- Base link -->
     <link name="base_link">
+        <!-- Visual -->
         <visual>
             <geometry>
                 <box size="${base_length} ${base_width} ${base_height}" />
@@ -17,12 +20,24 @@
             <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
             <material name="blue" />
         </visual>
+
+        <!-- Collision -->
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
+        </collision>
+
+        <!-- Inertia -->
         <xacro:box_inertia m="5.0" l="${base_length}" w="${base_width}" h="${base_height}"
                            xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
 
+    <!-- Macro for wheels -->
     <xacro:macro name="wheel_link" params="prefix">
         <link name="${prefix}_wheel_link">
+            <!-- Visual -->
             <visual>
                 <geometry>
                     <cylinder radius="${wheel_radius}" length="${wheel_length}" />
@@ -30,15 +45,28 @@
                 <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
                 <material name="grey" />
             </visual>
+
+            <!-- Collision -->
+            <collision>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+                </geometry>
+                <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+            </collision>
+
+            <!-- Inertia -->
             <xacro:cylinder_inertia m="1.0" r="${wheel_radius}" h="${wheel_length}" 
                                     xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
         </link>
     </xacro:macro>
 
+    <!-- Right and left wheels -->
     <xacro:wheel_link prefix="right" />
     <xacro:wheel_link prefix="left" />
 
+    <!-- Caster wheel -->
     <link name="caster_wheel_link">
+        <!-- Visual -->
         <visual>
             <geometry>
                 <sphere radius="${wheel_radius / 2.0}" />
@@ -46,10 +74,21 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="grey" />
         </visual>
+
+        <!-- Collision -->
+        <collision>
+            <geometry>
+                <sphere radius="${wheel_radius / 2.0}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+
+        <!-- Inertia -->
         <xacro:sphere_inertia m="0.5" r="${wheel_radius / 2.0}"
                               xyz="0 0 0" rpy="0 0 0" />
     </link>
 
+    <!-- Joints -->
     <joint name="base_joint" type="fixed">
         <parent link="base_footprint" />
         <child link="base_link" />
